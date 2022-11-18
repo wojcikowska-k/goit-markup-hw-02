@@ -1,0 +1,141 @@
+/*     
+Fonts:
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+.logo-header {
+  color: #000;
+}
+.logo-footer {
+  color: #fff;
+}
+header {
+  background-color: #fff;
+}
+footer {
+  background-color: #2f303a;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #212121;
+}
+.nav-links .link:visited {
+  color: #212121;
+}
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: #2196f3;
+}
+.contact-links {
+  color: #757575;
+}
+.contact-links:hover,
+.contact-links:focus {
+  color: #2196f3;
+}
+.footer {
+  text-decoration: none;
+  line-height: 1.71;
+}
+.footer-adress-map {
+  color: #fff;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(100%, 100%, 100%, 60%);
+}
+
+.hero-main {
+  text-align: center;
+  background-color: #2f303a;
+  line-height: 1.36;
+}
+.hero-main h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.hero-main button {
+  color: #fff;
+  background-color: #2196f3;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-subtext-header {
+  font-weight: 700;
+  color: #212121;
+}
+.hero-subtext {
+  color: #757575;
+  line-height: 1.71;
+}
+
+.what-we-do {
+  text-align: center;
+}
+.what-we-do h2 {
+  font-weight: 700;
+  color: #212121;
+}
+
+.team {
+  background-color: #f5f4fa;
+  text-align: center;
+}
+.team h2 {
+  font-weight: 700;
+  color: #212121;
+}
+.name {
+  font-weight: 500;
+  color: #212121;
+  text-align: center;
+}
+.position {
+  color: #757575;
+  text-align: center;
+}
+.filters {
+  text-align: center;
+}
+.filters button:hover {
+  color: #fff;
+  background-color: #2196f3;
+  line-height: 1.63;
+  font-weight: 500;
+}
+.filters button {
+  color: #000;
+  background-color: #f5f4fa;
+  line-height: 1.63;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.gallery h3 {
+  font-weight: 500;
+  color: #212121;
+  line-height: 2;
+}
+.gallery p {
+  color: #757575;
+  line-height: 1.88;
+}
+.gallery h3,
+.gallery p {
+  text-align: left;
+}
