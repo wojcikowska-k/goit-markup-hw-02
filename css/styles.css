@@ -4,138 +4,155 @@ Fonts:
 font-family: 'Raleway', sans-serif;
 
 font-family: 'Roboto', sans-serif; */
+:root {
+  --white-color: #fff;
+  --almost-white-color: #f5f4fa;
+  --black-color: #000;
+  --almost-black-color: #212121;
+  --dark-color: #2f303a;
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --grey-transparent-color: rgba(100%, 100%, 100%, 60%);
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+.list {
+  list-style: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #2196f3;
-}
-.logo-header {
-  color: #000;
-}
-.logo-footer {
-  color: #fff;
-}
-header {
-  background-color: #fff;
-}
-footer {
-  background-color: #2f303a;
-}
-a {
+  color: var(--blue-color);
   text-decoration: none;
 }
-nav {
+.logo-header {
+  color: var(--black-color);
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.header {
+  background-color: var(--white-color);
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.link {
+  text-decoration: none;
+}
+.nav {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #212121;
+  color: var(--almost-black-color);
 }
-.nav-links .link:visited {
-  color: #212121;
+.nav .link:visited {
+  color: var(--almost-black-color);
 }
-.nav-links .link:hover,
-.nav-links .link:focus {
-  color: #2196f3;
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--blue-color);
 }
 .contact-links {
-  color: #757575;
+  color: var(--grey-color);
+  text-decoration: none;
 }
 .contact-links:hover,
 .contact-links:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .footer {
   text-decoration: none;
   line-height: 1.71;
 }
 .footer-adress-map {
-  color: #fff;
+  color: var(--white-color);
+  text-decoration: none;
 }
 .footer-mail,
 .footer-tel {
-  color: rgba(100%, 100%, 100%, 60%);
+  color: var(--grey-transparent-color);
+  text-decoration: none;
 }
 
 .hero-main {
   text-align: center;
-  background-color: #2f303a;
+  background-color: var(--dark-color);
   line-height: 1.36;
 }
-.hero-main h1 {
+.hero-title {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: var(--white-color);
 }
-.hero-main button {
-  color: #fff;
-  background-color: #2196f3;
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
   font-weight: 700;
   cursor: pointer;
 }
-.hero-subtext-header {
+.hero-subtext-title {
   font-weight: 700;
-  color: #212121;
+  color: var(--almost-black-color);
 }
 .hero-subtext {
-  color: #757575;
+  color: var(--grey-color);
   line-height: 1.71;
 }
 
 .what-we-do {
   text-align: center;
 }
-.what-we-do h2 {
+.what-we-do-title {
   font-weight: 700;
-  color: #212121;
+  color: var(--almost-black-color);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--almost-white-color);
   text-align: center;
 }
-.team h2 {
+.team-title {
   font-weight: 700;
-  color: #212121;
+  color: var(--almost-black-color);
 }
-.name {
+.team-name {
   font-weight: 500;
-  color: #212121;
+  color: var(--almost-black-color);
   text-align: center;
 }
-.position {
-  color: #757575;
+.team-position {
+  color: var(--grey-color);
   text-align: center;
 }
 .filters {
   text-align: center;
 }
-.filters button:hover {
-  color: #fff;
-  background-color: #2196f3;
+.filters-button:hover {
+  color: var(--white-color);
+  background-color: var(--blue-color);
   line-height: 1.63;
   font-weight: 500;
 }
-.filters button {
-  color: #000;
-  background-color: #f5f4fa;
+.filters-button {
+  color: var(--black-color);
+  background-color: var(--almost-white-color);
   line-height: 1.63;
   font-weight: 500;
   cursor: pointer;
 }
 
-.gallery h3 {
+.gallery-title {
   font-weight: 500;
-  color: #212121;
+  color: var(--almost-black-color);
   line-height: 2;
 }
-.gallery p {
-  color: #757575;
+.gallery-description {
+  color: var(--grey-color);
   line-height: 1.88;
 }
-.gallery h3,
-.gallery p {
+.gallery-title,
+.gallery-description {
   text-align: left;
 }
