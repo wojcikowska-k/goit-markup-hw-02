@@ -41,7 +41,7 @@ body {
 .link {
   text-decoration: none;
 }
-.nav {
+.nav .link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: var(--almost-black-color);
